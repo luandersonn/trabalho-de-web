@@ -1,0 +1,82 @@
+
+body {
+    background-color:white;
+    width: 1440px;
+}
+
+#topo{
+    background-color:#F3F0EE;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline;
+} 
+
+#menu1, #menu2{
+    margin-left: 35px;
+    margin-top: 0px; 
+}
+
+#menu1 ul{
+    position: relative;
+    margin-left: 51.6%;
+}
+
+#menu1 ul li {
+    padding: 5px;
+}
+
+#menu1 ul li a {
+    font:normal 12px "Proxima Nova",Arial,sans-serif;  
+    color:darkslategray
+}
+#menu2 ul li {
+    padding: 37.8px;
+}
+
+
+
+#menu2 ul li a{
+    font:700 13px sharp sans,Arial,sans-serif;
+    color: #17494D;
+}
+
+button{
+    cursor:pointer;
+    background: #17494D;
+    color: #F3F0EE;
+    border:10px solid#17494D;
+    font: 600 15px sharp sans,Arial,sans-serif;
+    padding:0px 16px;
+}
+
+#nossosLideres{
+    background-color:#F3F0EE;
+    position: relative;
+}
+
+h1{
+    font-weight: 700;
+    color: #17494D;
+    font-family: sharp sans,Arial,sans-serif;
+    font-size: 3.5rem;
+    text-align: left;
+}
+
+div{
+    width: 30%;
+    min-width: 250px;
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+#top{
+    
+}
