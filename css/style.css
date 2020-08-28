@@ -1,82 +1,116 @@
-
 body {
-    background-color:white;
-    width: 1440px;
+    background-color: #f8f9f9;
+    width: auto;
 }
 
-#topo{
-    background-color:#F3F0EE;
-    position: relative;
-}
-
-a{
+a {
     text-decoration: none;
 }
 
 li {
     list-style: none;
     display: inline;
-} 
-
-#menu1, #menu2{
-    margin-left: 35px;
-    margin-top: 0px; 
+    font: 700 13px sharp sans, Arial, sans-serif;
+}
+li img{
+    padding-right: 80px;
+    padding-top:15px;
 }
 
-#menu1 ul{
-    position: relative;
-    margin-left: 51.6%;
+#menu {
+    margin-left: 50px;
+    margin-top: 0px;
 }
 
-#menu1 ul li {
-    padding: 5px;
-}
-
-#menu1 ul li a {
-    font:normal 12px "Proxima Nova",Arial,sans-serif;  
-    color:darkslategray
-}
-#menu2 ul li {
+#menu ul li {
     padding: 37.8px;
 }
 
-
-
-#menu2 ul li a{
-    font:700 13px sharp sans,Arial,sans-serif;
-    color: #17494D;
+#menu ul li a {
+    
+    color: #e0e0e0;
 }
 
-button{
-    cursor:pointer;
-    background: #17494D;
-    color: #F3F0EE;
-    border:10px solid#17494D;
-    font: 600 15px sharp sans,Arial,sans-serif;
-    padding:0px 16px;
+#BTroxo {
+    border-radius: 10px;
+    background: #ffffff00;
+    cursor: pointer;
+    color: #b700ff;
+    border: 1px solid#b700ff;
+    font:sharp sans, Arial, sans-serif;
+    padding: 15px 32px;
 }
 
-#nossosLideres{
-    background-color:#F3F0EE;
-    position: relative;
+
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button {
+    border-radius: 10px;
+    background-color: #f59300; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
 }
 
-h1{
+
+h1 {
     font-weight: 700;
     color: #17494D;
-    font-family: sharp sans,Arial,sans-serif;
-    font-size: 3.5rem;
+    font-family: Sharp Sans, Arial, sans-serif;
+    font-size: 40px;
     text-align: left;
 }
 
-div{
-    width: 30%;
-    min-width: 250px;
+div {
+    width: 43%;
     display: inline-block;
-
     vertical-align: top;
 }
 
-#top{
+#left {
+    margin-left: 110px;
+}
+
+#rigth {
+    color: #03363d;
+    font-weight: 600;
+    font-family: sharp sans, Arial, sans-serif;
+    font-size: 1rem;
+    height: 10em;
+    position: relative
+}
+
+
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #03363d;
+    font-family: sharp sans en,sharp sans accents,sharp sans symbols,sharp sans,Arial,sans-serif;
     
+    margin-top: 10%;
+}
+
+footer{
+    margin-top: 10%;
+    background: rgb(199, 199, 199);
+}
+
+footer button{
+    border: none;
+    background:#f59300;
+    color:white;
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
 }
