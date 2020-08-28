@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Mural de recados</title>
+    <meta charset="utf-8" />
+    <link href="css/mural.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/mural.js"></script>
+</head>
+
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li><img src="img/logo.png" alt="logo"></li>
+            <li>Mudar Background:</li>
+            <li><a href="#">Vermelho</a></li>
+            <li><a href="#">Azul</a></li>
+            <li><a href="#">Verde</a></li>
+            <li><button id="BTroxo" onclick="window.location.href='index.html';">Voltar</button></li>
+        </ul>
+    </nav>
+
+    <div id="mural">
+        <h2>Mural de recados</h2>
+        <p>Deixe seu recado</p>
+        <input id="nome" placeholder="Nome" />
+        <p> <textarea id="caixa_de_mensagem" placeholder="Mensagem"></textarea></p>
+        <button class="button" onclick="adicionar_mensagem(getElementById('nome').value , getElementById('caixa_de_mensagem').value)">Enviar</button>
+
+        <div>
+            <ul id="lista_de_mensagens">
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

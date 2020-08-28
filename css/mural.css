@@ -1,0 +1,43 @@
+#mural {
+    text-align: center;
+}
+
+#mural input,
+#mural textarea {
+    margin-right: auto;
+    font-size: 15px;
+    margin-left: auto;
+    justify-content: center;
+    width: 80%;
+    max-width: 320px;
+}
+
+#mural ul,
+#mural li div {
+    border: ridge rgb(199, 199, 199) 1px;
+    padding: 10px;
+    text-align: right;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item_lista {
+    list-style: none;
+    display: inline;
+    font: 700 13px sharp sans, Arial, sans-serif;
+}
+
+.botao_excluir {
+    border-radius: 10px;
+    background-color: #f54500;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
