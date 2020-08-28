@@ -14,7 +14,7 @@
 
 #mural ul,
 #mural li div {
-    border: ridge rgb(199, 199, 199) 1px;
+    border: ridge rgb(0, 0, 0, 0.4) 2px;
     padding: 10px;
     text-align: right;
     max-width: 320px;

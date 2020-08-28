@@ -43,6 +43,7 @@ li img {
     border: 1px solid#b700ff;
     font: sharp sans, Arial, sans-serif;
     padding: 15px 32px;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
 .button1:hover {
@@ -63,6 +64,21 @@ li img {
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+}
+
+.button_vermelho {
+    background-color: #f50000;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.button_azul {
+    background-color: #0765bd;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.button_verde {
+    background-color: #069601;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
